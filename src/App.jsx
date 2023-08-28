@@ -1,14 +1,22 @@
 import { useState } from 'react'
-import reactLogo from './assets/react.svg'
 import './App.css'
+import Home from './components/home'
+import Start from './components/start'
+import { BrowserRouter, Routes, Route } from 'react-router-dom'
+
+
+
 
 function App() {
   const [count, setCount] = useState(0)
 
   return (
-    <div>
-       <h1>GEGEGEGEGE</h1>
-    </div>
+    <BrowserRouter>
+        <Routes>
+           <Route element={<Home/>} path="/"></Route>
+           <Route element={<Start/>} path='/start'></Route>
+        </Routes>
+    </BrowserRouter>
   )
 }
 

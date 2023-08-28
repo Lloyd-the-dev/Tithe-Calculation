@@ -1,41 +1,33 @@
-#root {
-  max-width: 1280px;
-  margin: 0 auto;
-  padding: 2rem;
-  text-align: center;
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #0f7450ef;
+    font-family: 'Poppins', sans-serif;
 }
-
-.logo {
-  height: 6em;
-  padding: 1.5em;
-  will-change: filter;
+.container{
+    text-align: center;
+    color: white;
+    margin: 9rem auto;
+    width: 40%;
 }
-.logo:hover {
-  filter: drop-shadow(0 0 2em #646cffaa);
+.container p, h1{
+    text-align: left;
 }
-.logo.react:hover {
-  filter: drop-shadow(0 0 2em #61dafbaa);
+.container p{
+    word-break: normal;
+    width: 56%;
+    color: #fff;
+    ;
 }
-
-@keyframes logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.title{
+    text-decoration: underline;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  a:nth-of-type(2) .logo {
-    animation: logo-spin infinite 20s linear;
-  }
-}
-
-.card {
-  padding: 2em;
-}
-
-.read-the-docs {
-  color: #888;
+.btn{
+    background-color: #1DD392;
+    padding: .7rem;
+    border: none;
+    border-radius: 8px;
+    text-decoration: none;
+    color: #fff;
 }

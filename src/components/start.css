@@ -1,0 +1,46 @@
+body{
+    color: white;
+}
+.start-container h1{
+    margin: 5rem 30rem;
+    font-size: 2rem;
+    display: inline-block;
+    position: relative;
+    cursor: pointer;
+}
+@media (max-width: 678px) {
+    .start-container h1{
+        font-size: 1.5rem;
+        margin: 6rem;
+    }
+}
+.hover-underline-animation:after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    transform: scaleX(0);
+    height: 5px;
+    bottom: 0;
+    left: 0;
+    background-color: #fff;
+    transform-origin: bottom center;
+    transition: transform 0.25s ease-out;
+  }
+  
+  .hover-underline-animation:hover:after {
+    transform: scaleX(1);
+    transform-origin: bottom center;
+  }
+  .input-section{
+     text-align: center;
+  }
+  .tithe-input{
+     background-color: transparent;
+     width: 18%;
+     padding: 1rem;
+     border-radius: 5px;
+     box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;;
+  }
+  .tithe{
+     text-align: center;
+  }
