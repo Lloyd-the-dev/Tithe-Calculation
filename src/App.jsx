@@ -11,7 +11,7 @@ function App() {
   return (
     <BrowserRouter>
         <Routes>
-           <Route element={<Home/>} path="/home"></Route>
+           <Route element={<Home/>} path="/"></Route>
            <Route element={<Start/>} path='/start'></Route>
         </Routes>
     </BrowserRouter>
