@@ -2,32 +2,5 @@
 body{
     margin: 0;
     padding: 0;
-    background-color: #0f7450ef;
     font-family: 'Poppins', sans-serif;
-}
-.container{
-    text-align: center;
-    color: white;
-    margin: 9rem auto;
-    width: 40%;
-}
-.container p, h1{
-    text-align: left;
-}
-.container p{
-    word-break: normal;
-    width: 56%;
-    color: #fff;
-    ;
-}
-.title{
-    text-decoration: underline;
-}
-.btn{
-    background-color: #1DD392;
-    padding: .7rem;
-    border: none;
-    border-radius: 8px;
-    text-decoration: none;
-    color: #fff;
 }

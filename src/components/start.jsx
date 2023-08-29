@@ -16,7 +16,7 @@ function Start(){
                     }
                 }/>
             </div>
-            <h3 className='tithe'>Your Tithe is {tithe}</h3>
+            <h3 className='tithe'>Your Tithe is ₦{tithe}</h3>
  
         </div>
     )

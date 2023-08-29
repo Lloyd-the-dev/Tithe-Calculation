@@ -1,0 +1,265 @@
+html{
+    scroll-behavior: smooth;
+}
+body{
+    background-image: url("./Worship.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 2rem;
+    font-size: 26px;
+}
+
+.home{
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 3rem;
+    margin: 2rem;
+}
+span{
+    color: #1DD392;
+}
+.menu{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    background-color: #303030;
+    /* position: fixed; */
+    height: 3rem;
+}
+.menu i{
+    font-size: 36px;
+    cursor: pointer;
+}
+.menu p{
+    color: #1DD392;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 1s;
+}
+.menu p:hover{
+    color: white;
+}
+.container{
+    color: white;
+    width: 40%;
+    margin: 10rem 12rem;
+}
+.container p, h1{
+    text-align: left;
+}
+.container p{
+    word-break: normal;
+    width: 86%;
+    color: #fff;
+    font-size: 2rem;
+    font-weight: bolder;
+}
+.title{
+    font-size: 1.4rem;
+    color: #fff;
+}
+.buttons{
+    display: flex;
+    gap: 1rem;
+}
+.btn{
+    background-color: transparent;
+    border: 1px solid #fff;
+    padding: 1rem;
+    border-radius: 8px;
+    color: #fff;
+    cursor: pointer;
+    transition: 1s ease-in-out;
+}
+.btn:hover{
+    background-color: #fff;
+    color: black;
+}
+.about{
+    height: 100vh;
+    padding: 4rem;
+    text-align: center;
+    background-color: #1DD392;
+    margin: 0;
+
+}
+.about h3{
+    text-transform: uppercase;
+    letter-spacing: .3rem;
+}
+.about h3, p{
+    color: black;
+}
+.about h1{
+    text-align: center;
+    letter-spacing: .1rem;
+    font-size: 4rem;
+    margin: 0;
+}
+.about p{
+    width: 75%;
+    margin: 3rem auto;
+    font-size: 1.5rem;
+}
+hr{
+    border: .5px solid #fff;
+    width: 40rem;
+}
+.footer{
+    background-color: #413839;
+    height: 60vh;
+    margin-top: -30px;
+    padding: 10rem;
+    display: flex;
+    flex-direction: column;
+    gap: 5rem;
+    align-items: center;
+}
+.footer-container{
+    display: flex;
+    margin-left: 5rem;
+    width: 80%;
+    gap: 10rem;
+}
+.footer-left, .footer-right{
+    width: 40%;
+    font-size: 1.2rem;
+}
+.footer-left p, .footer-right p{
+    color: gray;
+}
+.subscribe-section input{
+    padding: 1rem;
+    background-color: transparent;
+    outline: none;
+    color: white;
+}
+
+::-webkit-input-placeholder{
+    color: #fff;
+}
+
+.subscribe-section button{
+    padding: 1rem;
+    background-color: #1DD392;
+    border: none;
+    color: #fff;
+    letter-spacing: .2rem;
+    cursor: pointer;
+}
+.subscribe-section button:focus{
+    outline: none;
+}
+#myBtn {
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    right: 30px;
+    z-index: 99;
+    font-size: 18px;
+    border: none;
+    outline: none;
+    background-color: red;
+    color: white;
+    cursor: pointer;
+    padding: 15px;
+    border-radius: 4px;
+    transition: 1s ease-out;
+  }
+.menu-hamburger{
+    padding: 1rem;
+    display: flex;
+    gap: 1.5rem;
+    transition: 1s ease-in-out;
+}
+.menu-hamburger a{
+    font-size: 1.4rem;
+    text-decoration: none;
+    color: #fff;
+    transition: 1s ease-in-out;
+}
+.menu-hamburger a:hover{
+    color: gray;
+}
+  #myBtn:hover {
+    background-color: #555;
+  }
+  @media (max-width: 707px) {
+   
+    nav{
+        margin: 0;
+        width: 100%;
+    }
+    .home{
+        font-size: 2rem;
+    }
+    .container{
+        width: 80%;
+        margin: 5.8rem auto;
+    }
+    .about{
+        padding-top: 6rem;
+        width: 100%;
+        height: 100vh;
+        margin: 0 auto;
+        text-align: left;
+    }
+    .about h1, p{
+        text-align: left;
+        font-size: 2rem;
+    }
+    .about p{
+        width: 80%;
+        margin: 1rem;
+        margin-left: -20px;
+        font-size: 1rem;
+    }
+    hr{
+        margin-left: -20px;
+        width: 20rem;
+    }
+    .footer{
+        height: 60vh;
+        margin-top: -30px;
+        padding: .2rem 0;
+        gap: 1rem;
+        font-size: 1rem;
+    }
+    .footer-container{
+        display: flex;
+        width: 100%;
+        gap: 1rem
+    }
+    .footer-left, .footer-right{
+        width: 40%;
+        font-size: 1rem;
+    }
+    .footer-left p, .footer-right p{
+        font-size: 1rem;
+    }
+    .subscribe-section{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: .5rem;
+    }
+    .subscribe-section input{
+        padding: .4rem;
+    }
+    .subscribe-section button{
+        padding: .4rem;
+        border-radius: 5px;
+    }
+    .copyright{
+        font-size: 1rem;
+    }
+    
+    
+}
