@@ -31,7 +31,7 @@ function Home(){
     return(
         <div>   
             <nav>
-                <a href="/home" className="home">Tithe<span>Pay</span></a>
+                <a href="/" className="home">Tithe<span>Pay</span></a>
                
                {/* Mobile view */}
                 <div className={`menu-hamburger `}>
